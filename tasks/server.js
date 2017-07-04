@@ -10,6 +10,7 @@ import rename from 'gulp-rename';
 import uglify from 'gulp-uglify';
 import { log, colors } from 'gulp-util';
 import args from './util/args';
+import liveserver from 'gulp-live-server';
 
 
 gulp.task('server', (cb)=>{
