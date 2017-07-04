@@ -13,7 +13,7 @@ import args from './util/args';
 import liveserver from 'gulp-live-server';
 
 
-gulp.task('server', (cb)=>{
+gulp.task('serve', (cb)=>{
 	if(!args.watch) return cb();
 
 	var server = liveserver.new(['--harmony', 'server/bin/www']);
